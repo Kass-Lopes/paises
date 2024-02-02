@@ -1,0 +1,7 @@
+.notFound{
+    margin-top: 7rem;
+    height: 100vh;
+}
+.notFound a{
+    color: grey;
+}

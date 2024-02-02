@@ -1,0 +1,66 @@
+.infoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1em;
+    color: aliceblue;
+    gap: 10em;
+}
+.infoContainer p{
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: .3em;
+}
+.infoContainer .infoDataArea a button{
+    width: 180px;
+    height: 40px;
+    color: #f5f5f5;
+    text-align: center;
+    background-color: rgb(70, 70, 70);
+    border-radius: 5px;
+    border: none;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.infoImageArea{
+    width: 500px;
+}
+
+@media(max-width:600px){
+    .infoContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 1em;
+        color: aliceblue;
+    }
+    .infoImageArea{
+        width: 370px;
+        position: relative;
+        top: -7em;
+    }
+    .infoContainer .infoDataArea a button{
+        width: 180px;
+        height: 40px;
+        color: #f5f5f5;
+        text-align: center;
+        background-color: rgb(70, 70, 70);
+        border-radius: 5px;
+        border: none;
+        margin-top: 2em;
+        margin-bottom: .5em;
+    }
+    .infoContainer p{
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: .3em;
+        flex-wrap: wrap;
+    }
+}
